@@ -1,0 +1,28 @@
+---
+title: "Canan Exploring australian marriage"
+description: |
+  A short description of the post.
+author: Canan
+date: 08-11-2021
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+I created calling in dataset
+```{r}
+data <- read.csv("../../_data/australian_marriage_tidy.csv")
+
+
+```
+
+Writing descriptive about the data 
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
